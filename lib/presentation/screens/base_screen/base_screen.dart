@@ -3,7 +3,9 @@ import 'package:hollow_bit/app/constants/color_constants.dart';
 import 'package:hollow_bit/app/dependencies/svg_dep.dart';
 import 'package:hollow_bit/generated/assets.dart';
 
-import '../home_screen/home_screen2.dart';
+import '../home_screen/home_screen.dart';
+import '../profile_screen/profile_screen.dart';
+import '../wallet_screen/wallet_screen.dart';
 
 class BaseScreen extends StatefulWidget {
   const BaseScreen({Key? key}) : super(key: key);
@@ -28,7 +30,7 @@ class _BaseScreenState extends State<BaseScreen> {
       body: IndexedStack(
         index: currentIndex,
         children: const [
-          Home2(),
+          Home(),
           Wallet(),
           Card(),
           Profile(),
@@ -176,32 +178,5 @@ class _BaseScreenState extends State<BaseScreen> {
         ),
       ),
     );
-  }
-}
-
-class Wallet extends StatelessWidget {
-  const Wallet({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(child: Text('Wallet'));
-  }
-}
-
-class Card extends StatelessWidget {
-  const Card({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(child: Text('Card'));
-  }
-}
-
-class Profile extends StatelessWidget {
-  const Profile({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const Center(child: Text('Profile'));
   }
 }

@@ -4,7 +4,6 @@ export 'card_stack.dart';
 export 'dashed_rect.dart';
 export 'dotted_line.dart';
 export 'drag_widget.dart';
-export 'drag_widget2.dart';
 export 'empty_card_stack.dart';
 export 'faded_blank_card.dart';
 export 'info_card.dart';
