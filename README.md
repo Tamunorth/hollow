@@ -6,8 +6,7 @@ A Flutter assessment project.
 
 This project is a starting project for changera assessment test
 
-### This project was implemented using Riverpod state management.
-### and a clean architecture folder structure
+### This project was implemented using Riverpod state management and a clean architecture folder structure.
 
 Using MVVM in the presentation layer.
 THis contains folders for the screens and corresponding view-models , This may also
