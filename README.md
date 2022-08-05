@@ -12,8 +12,15 @@ Using MVVM in the presentation layer.
 THis contains folders for the screens and corresponding view-models , This may also
 contain a widgets directory to store custom widget classes that only exsit on that screen
 {This helps to keep code modularized and readable}
-This also contains a shared directory that holds custom widgets tht may occur more thatn once in the app
-Like a TextButton etc.
+This also contains a shared directory that holds custom widgets tht may occur more than once in the app
+Like a CustomTextButton etc.
+
+![Uploading Screenshot_1659694444.png…](![Screenshot_1659694457](https://user-images.githubusercontent.com/77057934/183057034-3527fb23-5e25-4472-bff0-a6db3e2ced31.png)
+![Screenshot_1659694514](https://user-images.githubusercontent.com/77057934/183057037-95847867-d3c6-401d-92eb-9051aa96809c.png)
+![Screenshot_1659694590](https://user-images.githubusercontent.com/77057934/183057039-b3a9557b-6bba-4b62-b1bc-b2c2c5005891.png)
+)
+
+
 
 The data layer and domin layers are mostly reduntant holding just class definition 
 as the assessment did not require connection with external sources of data.
